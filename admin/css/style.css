@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap');
+body{
+  font-family: 'Jost', sans-serif;
+}
+html::-webkit-scrollbar {
+  width:  16px;
+}
+html::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+ 
+html::-webkit-scrollbar-thumb {
+  background: #424880;
+  border-radius: 15px;
+}
+
+/* register */
+.txt-bold{
+    font-weight: 1px bold;
+    letter-spacing: 1px;
+    color: black;
+}
+input[type=text], input[type=password], input[type=email], input[type=tel],input[type=number], input[type=file] , .input_select {
+  width: 100%;
+  padding: 8px;
+  margin: 3px 0 3px 0;
+  display: inline-block;
+  border: 1pt solid rgba(88, 88, 88, 0.767);
+  color: rgb(44, 44, 44);
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=tel]:focus, input[type=number]:focus, input[type=file]:focus, .input_select {
+  outline: none;
+  width: 100%;
+}
+
+.add_btn {
+  background-color: #154ee9de;
+  color: white;
+  padding: 6px;
+  margin: 9px 0;
+  border: none;
+  cursor: pointer;
+  width: 170px;
+  border-radius: 5px;
+}
+.registerbtn:hover {
+  opacity:3;
+}
+.outline-none
+{
+  outline: none;
+}
+.bg-admin{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,9,121,1) 39%, rgba(0,212,255,1) 100%);
+}
